@@ -1,0 +1,6 @@
+requests: 100
+mean ms: 95.9
+median ms: 40
+p90 ms: 40
+p99 ms: 1500
+slower than one second: 2

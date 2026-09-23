@@ -1,0 +1,4 @@
+events: 3
+over fifty pounds: 1
+total: 114.99
+by user: ['u1', 'u4']

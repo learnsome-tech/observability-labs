@@ -1,0 +1,13 @@
+# HELP http_requests_total Requests handled.
+# TYPE http_requests_total counter
+http_requests_total{status="200"} 5
+http_requests_total{status="500"} 1
+# HELP http_request_duration_seconds Duration in seconds.
+# TYPE http_request_duration_seconds histogram
+http_request_duration_seconds_bucket{le="0.05"} 2
+http_request_duration_seconds_bucket{le="0.1"} 3
+http_request_duration_seconds_bucket{le="0.5"} 4
+http_request_duration_seconds_bucket{le="1"} 4
+http_request_duration_seconds_bucket{le="+Inf"} 5
+http_request_duration_seconds_sum 2.471
+http_request_duration_seconds_count 5

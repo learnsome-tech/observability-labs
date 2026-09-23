@@ -1,0 +1,7 @@
+labels: ['method', 'route', 'status', 'instance']
+series: 5760
+memory mb: 18.4
+---
+labels: ['method', 'route', 'status', 'instance', 'user_id']
+series: 288000000
+memory mb: 921600.0

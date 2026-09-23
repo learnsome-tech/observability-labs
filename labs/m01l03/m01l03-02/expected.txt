@@ -1,0 +1,3 @@
+09:41:02 checkout: order 1071 for user u4 totalling 31.86 pounds was accepted
+09:41:02 checkout: order 1072 for user u1 totalling 74.63 pounds was accepted
+09:41:02 checkout: order 1073 for user u4 totalling 8.5 pounds was accepted

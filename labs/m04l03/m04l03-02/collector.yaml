@@ -1,0 +1,21 @@
+# Full-Stack Observability: Metrics, Tracing & Logging — lesson m04l03 — The OpenTelemetry Collector
+# https://learnsome.tech/courses/observability-course/watch?lesson=m04l03
+# © LearnSome.tech
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+processors:
+  batch:
+    timeout: 1s
+  memory_limiter:
+    check_interval: 1s
+    limit_percentage: 75
+
+exporters:
+  debug:
+    verbosity: detailed

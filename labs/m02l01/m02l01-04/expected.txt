@@ -1,0 +1,4 @@
+raw difference: -65
+increase with reset handling: 95.0
+seconds: 60
+per second: 1.5833

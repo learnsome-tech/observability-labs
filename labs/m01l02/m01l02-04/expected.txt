@@ -1,0 +1,6 @@
+GET /checkout    span=ea7b5bf55eb561a4 parent=none
+SELECT basket    span=795b929e9a9a80fd parent=ea7b5bf55eb561a4
+POST payments    span=94b2b8fda02f34a6 parent=ea7b5bf55eb561a4
+traceparent: 00-216363698b529b4a97b750923ceb3ffd-94b2b8fda02f34a6-01
+downstream reads: 216363698b529b4a97b750923ceb3ffd
+same trace: True

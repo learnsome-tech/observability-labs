@@ -1,0 +1,6 @@
+instance a, ninety ninth: 0.3
+instance b, ninety ninth: 0.9
+mean of those two: 0.6
+true ninety ninth of both: 0.9
+buckets a: [90, 99, 99, 100, 100]
+buckets b: [50, 50, 99, 99, 100]
