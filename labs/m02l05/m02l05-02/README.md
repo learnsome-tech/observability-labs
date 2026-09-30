@@ -23,6 +23,9 @@ In the lesson: Here is the whole configuration for the stack this course runs. T
    - Line 16: a job is a set of targets doing the same work
 4. Edit `prometheus.yml` and check it: `yamllint prometheus.yml`.
 5. Check it from the repository root: `./check m02l05-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l05-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed prometheus.yml`
+   - `strict` (Lint strictly): `yamllint prometheus.yml`
 
 ## How to check
 

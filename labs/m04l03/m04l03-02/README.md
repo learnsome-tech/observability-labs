@@ -20,6 +20,9 @@ In the lesson: This is the collector configuration shipped with the course. It r
 2. Read `collector.yaml`.
 3. Edit `collector.yaml` and check it: `yamllint collector.yaml`.
 4. Check it from the repository root: `./check m04l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l03-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed collector.yaml`
+   - `strict` (Lint strictly): `yamllint collector.yaml`
 
 ## How to check
 
