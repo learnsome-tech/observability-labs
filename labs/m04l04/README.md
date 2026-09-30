@@ -1,19 +1,35 @@
-# Instrumenting A Service With Client Libraries
+# m04l04 · Instrumenting A Service With Client Libraries
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: OpenTelemetry And Distributed Tracing  
-**Lesson**: `m04l04`
+Module 4: OpenTelemetry And Distributed Tracing · lesson 4.4 · Pro · [Open the lesson](https://learnsome.tech/learn/observability-course/m04l04)
 
-## Links
+**Goal:** You can identify the instrumentation points in a real service and explain what a client library should record automatically versus what your code must name explicitly.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m04l04)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-4-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l04-03](m04l04-03/) | The service emits all three signals | Read along |
 
-- [`m04l04-03/`](m04l04-03/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Mark the instrumentation points
+
+1. Circle where a request span begins and ends
+2. Name one safe business attribute
+3. Name one label that would create bad cardinality
+
+> **Hint:** Follow one request through the handler before choosing fields.
+
+## Check yourself
+
+- What can a client library automate?
+- Which details must application code name?
+- Why should secrets stay out of attributes?
+- How can trace volume be controlled?
+- What makes a label unsafe?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)

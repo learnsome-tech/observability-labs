@@ -1,0 +1,19 @@
+{
+  "lab": "m02l01-04",
+  "lesson": "m02l01",
+  "title": "Why a counter is useless until you ask about time",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 counters.py",
+  "main": "counters.py",
+  "files": [
+    "counters.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-02",
+  "lesson": "m02l04",
+  "title": "Do the multiplication before you ship",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 cardinality.py",
+  "main": "cardinality.py",
+  "files": [
+    "cardinality.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

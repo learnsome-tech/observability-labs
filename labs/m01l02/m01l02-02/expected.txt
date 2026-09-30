@@ -1,5 +1,0 @@
-# HELP http_requests_total Requests handled, by route and status.
-# TYPE http_requests_total counter
-http_requests_total{method="GET",route="/checkout",status="200"} 12
-http_requests_total{method="GET",route="/healthz",status="200"} 4
-http_requests_total{method="GET",route="/nope",status="404"} 4

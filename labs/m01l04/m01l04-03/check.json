@@ -1,0 +1,17 @@
+{
+  "lab": "m01l04-03",
+  "lesson": "m01l04",
+  "title": "The same program, three thresholds",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "session-the-same-program-three-thresholds.sh",
+  "files": [
+    "session-the-same-program-three-thresholds.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+}

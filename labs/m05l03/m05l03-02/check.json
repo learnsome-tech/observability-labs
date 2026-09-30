@@ -1,0 +1,17 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "The calculation is executable",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "sloconf.py",
+  "files": [
+    "sloconf.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

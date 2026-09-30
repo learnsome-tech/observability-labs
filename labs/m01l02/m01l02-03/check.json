@@ -1,0 +1,19 @@
+{
+  "lab": "m01l02-03",
+  "lesson": "m01l02",
+  "title": "A log: one record per event, full of detail",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 json_log.py",
+  "main": "json_log.py",
+  "files": [
+    "json_log.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

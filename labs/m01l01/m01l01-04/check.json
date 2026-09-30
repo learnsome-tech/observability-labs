@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-04",
+  "lesson": "m01l01",
+  "title": "A health check that says yes while work is failing",
+  "mode": "run",
+  "runner": "bash",
+  "command": "bash session-a-health-check-that-says-yes-while-work-is-f.sh",
+  "main": "session-a-health-check-that-says-yes-while-work-is-f.sh",
+  "files": [
+    "session-a-health-check-that-says-yes-while-work-is-f.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "bash",
+    "curl"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

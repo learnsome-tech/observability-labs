@@ -1,0 +1,19 @@
+{
+  "lab": "m02l03-04",
+  "lesson": "m02l03",
+  "title": "Where the percentile comes from, exactly",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 histogram_quantile.py",
+  "main": "histogram_quantile.py",
+  "files": [
+    "histogram_quantile.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

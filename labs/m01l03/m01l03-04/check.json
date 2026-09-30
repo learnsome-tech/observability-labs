@@ -1,0 +1,20 @@
+{
+  "lab": "m01l03-04",
+  "lesson": "m01l03",
+  "title": "Now a question is a query, not a regular expression",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 query_logs.py",
+  "main": "query_logs.py",
+  "files": [
+    "orders.jsonl",
+    "query_logs.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

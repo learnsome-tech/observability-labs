@@ -1,0 +1,19 @@
+{
+  "lab": "m02l05-02",
+  "lesson": "m02l05",
+  "title": "The configuration that defines a target",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint prometheus.yml",
+  "main": "prometheus.yml",
+  "files": [
+    "prometheus.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

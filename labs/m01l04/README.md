@@ -1,20 +1,36 @@
-# Log Levels Done Properly
+# m01l04 · Log Levels Done Properly
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: The Foundations Of Observability  
-**Lesson**: `m01l04`
+Module 1: The Foundations Of Observability · lesson 1.4 · Free · [Open the lesson](https://learnsome.tech/learn/observability-course/m01l04)
 
-## Links
+**Goal:** You can choose the right level for an event, set a threshold at run time rather than at build time, and stop using error for things that are not errors.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m01l04)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-1-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l04-02](m01l04-02/) | Levels as numbers, and one threshold | Read along |
+| [m01l04-03](m01l04-03/) | The same program, three thresholds | Read along |
 
-- [`m01l04-02/`](m01l04-02/)
-- [`m01l04-03/`](m01l04-03/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Your turn
+
+1. Find a place in your own service that logs an error for an expected case
+2. Decide whether the user got their result, and move the level accordingly
+3. Then check the same failure is not logged again further up the stack
+
+> **Hint:** The question to ask is: did somebody lose work? Not: did it look scary?
+
+## Check yourself
+
+- What is the honest test for whether an event deserves the error level?
+- Why should the threshold come from the environment rather than from the code?
+- What goes wrong when the same failure is logged at every layer?
+- Which level pages somebody, and what actually does the paging?
+- Name two things that belong at debug and never in production.
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)

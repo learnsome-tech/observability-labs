@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-04",
+  "lesson": "m02l02",
+  "title": "Why a summary cannot be added up",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 summary_vs_histogram.py",
+  "main": "summary_vs_histogram.py",
+  "files": [
+    "summary_vs_histogram.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

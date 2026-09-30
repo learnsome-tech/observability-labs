@@ -1,0 +1,17 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "The logger the service in this course uses",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "logs.py",
+  "files": [
+    "logs.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

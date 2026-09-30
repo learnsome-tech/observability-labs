@@ -1,0 +1,21 @@
+{
+  "lab": "m04l02-03",
+  "lesson": "m04l02",
+  "title": "The trace tree and header are visible",
+  "mode": "run",
+  "runner": "python",
+  "command": "python3 trace_demo.py",
+  "main": "trace_demo.py",
+  "files": [
+    "otlp.py",
+    "trace_demo.py",
+    "tracing.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "python3"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

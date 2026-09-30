@@ -1,0 +1,19 @@
+{
+  "lab": "m01l03-03",
+  "lesson": "m01l03",
+  "title": "The same three events, written as records",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 json_log.py",
+  "main": "json_log.py",
+  "files": [
+    "json_log.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

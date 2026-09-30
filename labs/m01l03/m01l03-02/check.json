@@ -1,0 +1,19 @@
+{
+  "lab": "m01l03-02",
+  "lesson": "m01l03",
+  "title": "The same three events, written as prose",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 text_log.py",
+  "main": "text_log.py",
+  "files": [
+    "text_log.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

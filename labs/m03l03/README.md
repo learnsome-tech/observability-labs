@@ -1,20 +1,24 @@
-# Calculating Percentiles With histogram_quantile
+# m03l03 · Calculating Percentiles With histogram_quantile
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: PromQL And Dashboards  
-**Lesson**: `m03l03`
+Module 3: PromQL And Dashboards · lesson 3.3 · Pro · [Open the lesson](https://learnsome.tech/learn/observability-course/m03l03)
 
-## Links
+**Goal:** You can read cumulative histogram buckets and use histogram quantile to estimate a percentile without pretending that an average describes the tail.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m03l03)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-3-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l03-02](m03l03-02/) | The average hides the painful tail | Graded |
+| [m03l03-04](m03l03-04/) | The quantile estimate comes from buckets | Graded |
 
-- [`m03l03-02/`](m03l03-02/)
-- [`m03l03-04/`](m03l03-04/)
+## Check yourself
+
+- Why can an average hide a customer problem?
+- What does cumulative mean for histogram buckets?
+- How does histogram quantile find its target bucket?
+- Which label must survive bucket aggregation?
+- Why do units matter in a percentile panel?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)

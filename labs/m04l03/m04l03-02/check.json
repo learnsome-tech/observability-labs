@@ -1,0 +1,19 @@
+{
+  "lab": "m04l03-02",
+  "lesson": "m04l03",
+  "title": "The shipped collector routes traces and logs",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint collector.yaml",
+  "main": "collector.yaml",
+  "files": [
+    "collector.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

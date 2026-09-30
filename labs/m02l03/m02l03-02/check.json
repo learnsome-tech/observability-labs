@@ -1,0 +1,19 @@
+{
+  "lab": "m02l03-02",
+  "lesson": "m02l03",
+  "title": "One hundred requests, and two honest summaries",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 average_lies.py",
+  "main": "average_lies.py",
+  "files": [
+    "average_lies.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

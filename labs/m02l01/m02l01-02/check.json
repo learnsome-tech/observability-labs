@@ -1,0 +1,20 @@
+{
+  "lab": "m02l01-02",
+  "lesson": "m02l01",
+  "title": "The same events, counted two ways",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 counter_vs_gauge.py",
+  "main": "counter_vs_gauge.py",
+  "files": [
+    "counter_vs_gauge.py",
+    "metrics.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

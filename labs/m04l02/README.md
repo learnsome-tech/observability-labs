@@ -1,19 +1,35 @@
-# Traces, Spans And Context Propagation
+# m04l02 · Traces, Spans And Context Propagation
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: OpenTelemetry And Distributed Tracing  
-**Lesson**: `m04l02`
+Module 4: OpenTelemetry And Distributed Tracing · lesson 4.2 · Pro · [Open the lesson](https://learnsome.tech/learn/observability-course/m04l02)
 
-## Links
+**Goal:** You can read a trace tree, distinguish a parent span from a child span, and explain how trace context crosses a service boundary.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m04l02)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-4-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l02-03](m04l02-03/) | The trace tree and header are visible | Runs, not graded |
 
-- [`m04l02-03/`](m04l02-03/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Follow one request across two services
+
+1. Draw the parent and child spans for a checkout request
+2. Write which header carries the context
+3. Mark the span where the deliberate failure occurs
+
+> **Hint:** Keep the trace identifier constant and change the parent span identifier.
+
+## Check yourself
+
+- What does a trace identifier join?
+- Why does each child need its own span identifier?
+- What does the traceparent header carry?
+- What should span attributes describe?
+- How should a missing context be handled?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)

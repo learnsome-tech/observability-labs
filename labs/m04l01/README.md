@@ -1,19 +1,35 @@
-# OpenTelemetry: The Vendor Neutral Path
+# m04l01 · OpenTelemetry: The Vendor Neutral Path
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: OpenTelemetry And Distributed Tracing  
-**Lesson**: `m04l01`
+Module 4: OpenTelemetry And Distributed Tracing · lesson 4.1 · Pro · [Open the lesson](https://learnsome.tech/learn/observability-course/m04l01)
 
-## Links
+**Goal:** You can explain why OpenTelemetry separates instrumentation from storage vendors and identify the common language shared by traces, metrics, and logs.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m04l01)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-4-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l01-04](m04l01-04/) | Attributes keep values typed | Read along |
 
-- [`m04l01-04/`](m04l01-04/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Choose the boundary for your service
+
+1. List the signals your service emits
+2. Name the collector receiver that accepts them
+3. Name the backend that should remain replaceable
+
+> **Hint:** Keep the service code about meaning and the platform code about routing.
+
+## Check yourself
+
+- Why should instrumentation outlive a vendor?
+- What do resource attributes identify?
+- What work belongs in a collector?
+- Why do typed attributes matter?
+- Where should routing decisions live?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)

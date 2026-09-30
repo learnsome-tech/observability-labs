@@ -1,20 +1,24 @@
-# Prometheus Scraping And The Pull Model
+# m02l05 · Prometheus Scraping And The Pull Model
 
-**Course**: [Full-Stack Observability: Metrics, Tracing & Logging](https://learnsome.tech/courses/observability-course)  
-**Module**: Metrics And Prometheus  
-**Lesson**: `m02l05`
+Module 2: Metrics And Prometheus · lesson 2.5 · Pro · [Open the lesson](https://learnsome.tech/learn/observability-course/m02l05)
 
-## Links
+**Goal:** You can describe what a scrape is, configure a target, read the health of every target, and explain what the pull model gives you that pushing does not.
 
-- [Watch lesson](https://learnsome.tech/courses/observability-course/watch?lesson=m02l05)
-- [Handbook](https://learnsome.tech/courses/observability-course/book#lesson-2-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l05-02](m02l05-02/) | The configuration that defines a target | Checker |
+| [m02l05-03](m02l05-03/) | Looking at the scrape from both ends | Read along |
 
-- [`m02l05-02/`](m02l05-02/)
-- [`m02l05-03/`](m02l05-03/)
+## Check yourself
+
+- Who initiates a scrape, and what does the service know about Prometheus?
+- What is the up metric, who writes it, and what does zero mean?
+- Why must rendering the metrics page be cheap?
+- What happens to a target's series when the target disappears?
+- Which kind of workload does the pull model handle badly, and what is the answer?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Full-Stack Observability: Metrics, Tracing & Logging on LearnSome.tech](https://learnsome.tech/courses/observability-course)
